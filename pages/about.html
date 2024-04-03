@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Page about coding and designing a website about Goal 13, Climate Action, of UN's Sustainable Development Goals, school project">
+    <title>About</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <nav>
+        <div id="header">
+            <div class="center">
+                <ul id="nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="game.html">Game</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <article>
+            <div class="wrapper">
+
+                <section>
+                    <div class="center">
+                        <div id="about-text">
+                            <h1 class="title">Reflection</h1>
+                            <h2>Visual Design</h2>
+                            <p>The target audience I decided to go for was 14 to 16 year olds. I wanted a
+                                website that
+                                didn't look too childish, while not looking too professional either. This included the
+                                active
+                                use of colors, larger fonts and elements, and reading material fitting the young
+                                teenager
+                                demographic. I prioritized making a cohesive design that was playful, e.g. the
+                                navigation bar
+                                with the hover effect and yellow bulletins. At the same time, it was important to not
+                                "dumb it down" too much as they are quite capable of understanding the current struggles
+                                connected to climate, and acting as if they aren't would only be a disservice. I went
+                                for the
+                                font family Arial, due to it's applicability and how readable it is on the screen. It
+                                was also
+                                necessary to make sure that how the colors communicated with each other followed <abbr
+                                    title="Web Content Accessibility Guidelines">WCAG</abbr>, to make the website as
+                                accessible
+                                as possible.</p>
+
+                            <h2>Structure</h2>
+                            <p>Structural tags I used within the &lt;body&gt; tag, where &lt;nav&gt; for the navigation
+                                bar at the top, &lt;main&gt; for the main content, and &lt;footer&gt; for the footer at
+                                the bottom of my website. In addition, I used &lt;section&gt; or &lt;article&gt; (like
+                                on my
+                                "About" page) where they applied within the &lt;main&gt; tag. When it comes to my folder
+                                system,
+                                I have one folder called "images" for images, and another called "pages"—that includes
+                                all sites besides the home page (landing page, index.html)—below my parent folder. The
+                                stylesheet I used is not within any subdirectories. I did it this way to make sure
+                                everything was orderely and easy to navigate.</p>
+
+                            <h2>Responsivness</h2>
+                            <p>I applied both grid and flexbox to build my website. I am not sure if I created more
+                                &lt;div&gt;
+                                containers/boxes than necessary, but layout-wise my site ended up looking how I wanted.
+                                With media queries, which were (max-width: 600px) and (min-width: 1200px), I increased,
+                                reduced or eliminated
+                                properties such as padding, margin and gap depending on the need. Combined with the use
+                                of responsive
+                                units, such as rem and %, my website ends up being quite responsive. It
+                                does look functional for the "Galaxy Fold" screen, the smallest definitive screen within
+                                the Inspect tool,
+                                and the design doesn't start breaking before around 262px width.</p>
+
+                            <h2>Carbon Footprint</h2>
+                            <p>To make sure that the carbon footprint of my website is as small as possible, I went
+                                through multiple processes. First, I attempted to write efficient code and not repeat
+                                myself (DRY-principle) in my CSS. Writing inefficient code and including elements that
+                                you won't display on your website only lead to higher energy consumption, as it takes
+                                resources from the computer to store and increases the load on a website for example.
+                                Another way to reduce the carbon footprint was to change the format of all my images to
+                                WebP, a photo format that has around the same file size as JPG while preserving the
+                                quality of an image better. Using a converter, I saved about 2.8 MB total. While that's
+                                not a
+                                lot, doing this on more complex sites will add up. The exceptions are the game board
+                                I created with Adobe Illustrator (did use the "save for web" option however), and the
+                                Goal 13 logo due to the green color changing after the conversion.
+                            </p>
+
+                            <h2>Sources</h2>
+                            <p>The source used to make this website has only been UN, both for facts and information and
+                                when it comes to images linked to their visual identity. Other images where downloaded
+                                from Pixabay, which are royalty-free. I used ChatGPT as a tool to
+                                rephrase the text to make it easier to understand for the chosen target group, which was
+                                14–16 years old, and for identifying issues when it comes to certain issues within my
+                                code.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </article>
+    </main>
+
+
+    <footer>
+        <div id="footer-container">
+            <div id="footer-grid">
+                <div class="footer-column1">
+                    <img src="../images/ntnu-black-logo.webp" alt="ntnu black version">
+                </div>
+                <div class="footer-column2">
+                    <h2>Contact Us</h2>
+                    <p><b>Address:</b> Raufossvegen 40, 2821 Gjøvik</p>
+                    <p><b>Phone number:</b> 61 13 54 00</p>
+                </div>
+                <div class="footer-column3">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1947.1423413835405!2d10.670982016041968!3d60.788961800180054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da12feff8215%3A0x2dd87120cf6c6be8!2sRaufossvegen%2040%2C%202821%20Gj%C3%B8vik!5e0!3m2!1sno!2sno!4v1668432689229!5m2!1sno!2sno"
+                            title="Google map showing address to Mustad, NTNU">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="footer-text">
+                    <p>
+                        This page was created as part of the subject
+                        <a href="https://www.ntnu.no/studier/emner/IDG1292#tab=omEmnet">IDG1292</a>
+                        of the Department of Design by Christine Ky Nguyen from BWU.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
